@@ -61,7 +61,7 @@
           </label>
         </div>
         <div class="column is-8">
-          <input type='text' v-model='Book.price' class="input">
+          <input type='number' v-model='Book.price' class="input" min="10" max="1000" step="1">
         </div>
       </div>
       <br>
